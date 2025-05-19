@@ -1,44 +1,83 @@
-# ISYE6644 Advanced Pandemic Flu Spread Project
+# 🦠 ISYE6644 Advanced Pandemic Flu Spread Project
 
-## Project Overview
-This project titled "Optimizing Non-Pharmaceutical and Pharmaceutical Interventions to Mitigate Influenza Pandemic
-Spread: A Simulation-Based Approach", conducted by Joel Zhu Hui Quek, Wei Sin Ho, and Zehao Chen, focuses on optimizing non-pharmaceutical and pharmaceutical interventions to mitigate influenza pandemic spread through a simulation-based approach. The simulation models the spread of an infectious disease within a large population under various intervention strategies, providing insights into the effectiveness of these interventions in controlling the disease spread.
+This project simulates the spread of an influenza pandemic and evaluates intervention strategies to control its impact. Using a simulation-based approach, the model analyzes both **non-pharmaceutical** and **pharmaceutical interventions**—such as vaccination and social distancing—to guide effective pandemic response planning.
 
+Developed by: Joel Zhu Hui Quek, Wei Sin Ho, and Zehao Chen.
 
-## Repository Structure
-Contains all source code files for the simulation.
+---
 
+## 📌 Project Overview
 
-## Simulation Model
-The model simulates the spread of an infectious disease within a hypothetical population to understand the dynamics of transmission without interventions and evaluates various intervention strategies such as vaccination and social distancing.
+Titled *"Optimizing Non-Pharmaceutical and Pharmaceutical Interventions to Mitigate Influenza Pandemic Spread"*, this project models how an infectious disease spreads in a hypothetical population under various containment strategies. The goal is to simulate real-world pandemic dynamics and provide insights into how interventions can reduce transmission, hospitalizations, and deaths.
 
-### Key Components
-- **Calculating New Infections**: Simulates daily interactions between infectious and susceptible individuals.
-- **Updating Status**: Uses a stochastic approach to determine daily recoveries and deaths.
-- **Applying Vaccination**: Implements daily vaccinations, adjusting the susceptible and vaccinated populations accordingly.
+---
 
-## Installation
+## 🔍 Research Questions
+
+1. How does a pandemic spread in the absence of interventions?
+2. What is the comparative effectiveness of vaccination versus social distancing?
+3. Can a combined intervention strategy outperform individual approaches in reducing disease spread?
+
+---
+
+## 🧬 Simulation Model
+
+The simulation mimics daily interactions among individuals in a population, tracking infection, recovery, and mortality using probabilistic methods.
+
+**Key Model Components**:
+- **Infection Dynamics**: Simulates interactions between infectious and susceptible individuals.
+- **Status Updates**: Stochastic modeling of recoveries and fatalities each day.
+- **Vaccination Strategy**: Applies daily vaccinations to reduce susceptible population and simulate immunity build-up.
+- **Intervention Scenarios**: Compares outcomes across different strategies—no intervention, vaccination only, distancing only, and combined approaches.
+
+---
+
+## 📁 Repository Structure
+
+- `scripts/`: Source code for the simulation and analysis
+- `run.sh`: Bash script to execute the full simulation pipeline
+- `requirements.txt`: Dependency file to set up the Python environment
+
+---
+
+## 🛠️ Installation
+
 To set up the simulation environment:
+
 ```bash
 git clone https://github.com/datakunoichi/ISYE6644.git
-cd scripts
+cd ISYE6644/scripts
 pip install -r requirements.txt
 ```
 
-## Usage
-To run the simulation:
-```bash
+---
+
+## 🚀 Usage
+
 1. Clone this repository to your local machine.
-2. Navigate to the project directory.
-3. Run the desired scripts from the scripts folder to process the data, perform exploratory data analysis, and train machine learning models.
-4. Execute run.sh to automate the entire pipeline.
-```
+2. Navigate to the `scripts` folder.
+3. Run the Python scripts to simulate scenarios and visualize results.
+4. Use `run.sh` to execute the full simulation workflow.
 
-## Contributing
-Contributions to this project are welcome. Please fork the repository and submit a pull request with your proposed changes.
+---
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 🤝 Contributing
 
-## Acknowledgments
-This project was developed as part of the coursework for ISYE6644 at Georgia Tech. Thanks to all contributors and reviewers.
+Contributions are welcome!  
+To contribute:
+- Fork the repository
+- Make your changes in a feature branch
+- Submit a pull request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+---
+
+## 🎓 Acknowledgments
+
+This project was completed as part of **ISYE6644: Simulation** coursework at Georgia Tech.  
+Special thanks to the instructors, peers, and reviewers who provided guidance and feedback.
