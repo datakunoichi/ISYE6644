@@ -35,7 +35,6 @@ The simulation mimics daily interactions among individuals in a population, trac
 ## 📁 Repository Structure
 
 - `scripts/`: Source code for the simulation and analysis
-- `run.sh`: Bash script to execute the full simulation pipeline
 - `requirements.txt`: Dependency file to set up the Python environment
 
 ---
@@ -57,7 +56,6 @@ pip install -r requirements.txt
 1. Clone this repository to your local machine.
 2. Navigate to the `scripts` folder.
 3. Run the Python scripts to simulate scenarios and visualize results.
-4. Use `run.sh` to execute the full simulation workflow.
 
 ---
 
