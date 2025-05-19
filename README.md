@@ -20,7 +20,7 @@ The model simulates the spread of an infectious disease within a hypothetical po
 ## Installation
 To set up the simulation environment:
 ```bash
-git clone https://github.com/datakunoichi
+git clone https://github.com/datakunoichi/ISYE6644.git
 cd ISYE6644
 pip install -r requirements.txt
 ```
