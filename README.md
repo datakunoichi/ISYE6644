@@ -20,8 +20,8 @@ The model simulates the spread of an infectious disease within a hypothetical po
 ## Installation
 To set up the simulation environment:
 ```bash
-git clone https://github.com/joel-quek/Georgia-Tech-OMSA/tree/main/ISYE6644%20Simulation/Project
-cd ISYE6644%20Simulation/Project
+git clone https://github.com/datakunoichi
+cd ISYE6644
 pip install -r requirements.txt
 ```
 
