@@ -2,7 +2,7 @@
 
 ## Project Overview
 This project titled "Optimizing Non-Pharmaceutical and Pharmaceutical Interventions to Mitigate Influenza Pandemic
-Spread: A Simulation-Based Approach", conducted by Joel, Wei Sin, and Zehao, focuses on optimizing non-pharmaceutical and pharmaceutical interventions to mitigate influenza pandemic spread through a simulation-based approach. The simulation models the spread of an infectious disease within a large population under various intervention strategies, providing insights into the effectiveness of these interventions in controlling the disease spread.
+Spread: A Simulation-Based Approach", conducted by Joel Zhu Hui Quek, Wei Sin Ho, and Zehao Chen, focuses on optimizing non-pharmaceutical and pharmaceutical interventions to mitigate influenza pandemic spread through a simulation-based approach. The simulation models the spread of an infectious disease within a large population under various intervention strategies, providing insights into the effectiveness of these interventions in controlling the disease spread.
 
 
 ## Repository Structure
