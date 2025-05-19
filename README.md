@@ -28,7 +28,10 @@ pip install -r requirements.txt
 ## Usage
 To run the simulation:
 ```bash
-python simulation.py
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Run the desired scripts from the scripts folder to process the data, perform exploratory data analysis, and train machine learning models.
+4. Execute run.sh to automate the entire pipeline.
 ```
 
 ## Contributing
